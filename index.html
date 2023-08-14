@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolon's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Dolon's Portfolio</a>
+        <nav class="navbar">
+            <a href="#" class="active" style="--i:1">Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3">Skills</a>
+            <a href="#" style="--i:4">Portfolio</a>
+            <a href="#" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <!--=====>> Hero Section <<=====-->
+    <div class="hero-container">
+        <div class="info-side">
+            <h3 class="part-1">Hello, It's Me</h3>
+            <h1>Kumari Dolon Dey</h1>
+            <h3 class="part-2">And I'm a <span id="changing-text">Web Developer</span></h3>
+            <p>"Creative web developer with a passion for clean design and seamless user experiences."</p>
+
+            <!-- Social Media icons-->
+            <a href="https://www.instagram.com/dolon1441/"><i class="uil uil-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/dolon-dey-0a4311227/"><i class="uil uil-linkedin-alt"></i></a>
+            <br/>
+            <a href="Dolon_Dey__Resume.pdf"><button class="btn">Download CV</button></a>
+        </div>
+
+        <div class="hero-img">
+            <img src="dolon_dey.jpg">
+        </div>
+    </div>
+
+    <!--===>About<===-->
+    <div id="about">
+        <div class="hero-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="dolon_dey2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a 3rd year undergraduate student pursuing Information technology at Vellore institute of technology (VIT-Vellore).I'm a passionate and dedicated student forwarding my journey in the world of web development.As a student web developer, I thrive on the excitement of solving complex problems and turning them into user-friendly experiences. I'm well-versed in HTML, CSS, and JavaScript, also good knowledge in JAVA, Python, Node JS, C++.By implementing a fully software development life cycle (SDLC) and analyze the performance of programs to correct deficiencies.I'm thrilled to showcase the projects I've worked on, each a testament to my dedication and the skills I've acquired. Feel free to explore my portfolio and get a glimpse of the web experiences I've brought to fruition. </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - Present</span><br>Mood Indigo IIT Bombay</li>
+                                <li><span>2023(August) - Present</span><br>Web Development(Sync Intern's, CodSoft, InfoAidTech)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Sept'21 - Jul'25</span><br>Vellore Institute of Technology(Vellore)</li>
+                                <li><span>May'19 - May'21</span><br>TPS DAV Public School</li>
+                                <li><span>Feb'06 - Apr'19</span><br>R.V.I.E.School</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certificate">
+                            <ul>
+                                <li><span>DSA with JAVA</span><br>issued on Aug'22 from Apna College</li>
+                                <li><span>An Introduction to Git & Github</span><br>issued on Jun'23 from Microsoft</li>
+                                <li><span>SQL</span><br>issued on Jun'23 from HackerRank</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------services-------->
+    <div id="services">
+        <div class="hero-container">
+            <div class="row">
+            <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                
+                    <div class="sub-title1">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>  
+                        <p>Experience a diverse array of expertly crafted websites that blend aesthetics with functionality. Our portfolio showcases responsive designs that adapt flawlessly to all devices. Delve into case studies, revealing our coding expertise and problem-solving skills. Clients' feedback attests to our commitment to delivering high-quality web solutions. Elevate your online presence with our impressive web development achievements.</p>    
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="sub-title2">   
+                        <i class="fa-solid fa-crosshairs"></i>
+                        <h3>UI/UX and App Design</h3>
+                        <p>This portfolio boasts a user-friendly interface that guides seamless exploration. Experience stunning visuals and streamlined navigation, ensuring an enjoyable journey. Engaging case studies reveal our design process and problem-solving prowess. Discover client testimonials and easily connect for exciting collaborations. Elevate your digital experience with our innovative UI/UX and App design.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div class="sub-title3">    
+                        <i class="fa-brands fa-centercode"></i>
+                        <h4 class="sub-title3">SQL, Python, C/C++, JAVA, LINUX</h4>
+                        <p>Dive into SQL projects displaying efficient database management and querying. Explore Python scripts and applications showcasing the power of automation and data analysis. Experience C/C++ projects that exhibit high-performance computing and algorithmic prowess. Witness JAVA applications exemplifying object-oriented design and robust functionality. Unveil LINUX projects demonstrating system administration and shell scripting expertise. Our portfolio reflects a diverse range of technical skills, ready to elevate your projects to new heights.</p>
+                        <a href="#">Learn More</a> 
+                    </div>
+                </div>      
+            </div>    
+        </div>
+    </div>
+
+    <!--------Portfolio-------->
+    <div id="portfolio">
+        <div class="hero-container">
+            <div class="row">
+            <h1 class="sub-title">My Work</h1>
+                
+                <div class="work-list">
+                    <div class="row">
+                        <div class="work">
+                            <img src="tdtt1byn.png">
+                            <div class="layer">
+                                <h3>Money Management App</h3>
+                                <p>It is based for every user sign-up, management of money, analyze of daily expenditure, not exceeding expenditure per day limit set 
+                                    amount.</p>
+                                <a href="file:///C:/Users/dolon/AppData/Local/Microsoft/Windows/INetCache/IE/AE2S14CM/Expense_Tracker_1.0.0[1].apk"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="iv8wosdc.png">
+                            <div class="layer">
+                                <h3>Product Landing Page</h3>
+                                <p>Using HTML, CSS, and JavaScript, a simple web page to clone of a product landing page such as amazon.in.</p>
+                                <a href="https://dolon1441.github.io/LandingPage/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="ic60aoyc.png">
+                            <div class="layer">
+                                <h3>Calculator</h3>
+                                <p>a fully functional calculator this calculator allows users to perform various mathematical operation such as addition, 
+                                    subtraction, multiplication and division in a user-friendly and intuitive manner.</p>
+                                <a href="https://dolon1441.github.io/Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="iv8wosdc.png">
+                            <div class="layer">
+                                <h3>Cooling Load Calc of Building</h3>
+                                <p>Using HTML, CSS, and JavaScript, a simple web page to take user inputs for the cooling load calculator and display the result.</p>
+                                <a href="https://dolon1441.github.io/CoolingLoadCal/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="tdtt1byn.png">
+                            <div class="layer">
+                                <h3>Smart Dustbin using NodeMCU</h3>
+                                <p>A hardware-based application, creating a smart dustbin using a NodeMCU (an ESP8266-based development board) can be a fun and useful project. It's connect the dustbin to the internet and collect data.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="ic60aoyc.png">
+                            <div class="layer">
+                                <h3>And many more...</h3>
+                                <p>Download Resume for more info..</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="click" >See More</a>
+            </div> 
+        </div>
+    </div>
+    <!-------contact--------->
+    <div id="contact">
+        <div class="hero-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>"dolondey743@gmail.com"</p>
+                    <p><i class="fa-solid fa-square-phone"></i>"+91 9142208365"</p>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="9" placeholder="Your Message"></textarea>
+                        <button class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>"Made With"<i class="fa-solid fa-heart"></i>by Kumari Dolon Dey</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyIHjZ7PgrOPp2gbqOiLCFAH12I9XcLvJg2s7c5PmoKOinJoIgY3p-sxPOgFXycv1Zz/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body> 
+</html>      
